@@ -2,7 +2,7 @@
 	"name": "@redlabs/rocket-loadout",
 	"description": "Enhanced loadout (settings and features) for your Directus instance. EMAIL_FROM override + Email hook. More to come!??",
 	"icon": "rocket_launch",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"author": "Rasputin of Tortuga <rasputin.of.tortuga@gmail.com>",
 	"homepage": "https://redlabs.rocks",
 	"repository": {
