@@ -1,0 +1,206 @@
+---
+alwaysApply: true
+---
+
+# RedLabs Rocket Loadout 🚀 - Cursor Rules
+
+## 🏴‍☠️ Core Pirate Code
+**ALL COMMIT MESSAGES MUST USE PIRATE LANGUAGE** - This be the most sacred rule of the seven seas! 
+- Examples: "Arrr! Added new treasure map feature", "Batten down the hatches - fixed memory leak", "Shiver me timbers! Refactored authentication flow"
+- Use nautical terms, pirate exclamations, and sea-worthy vocabulary
+- Keep it authentic but professional enough for a development log
+
+## 🚀 Project Context
+This be a Directus extension bundle for enhanced email management and system configuration:
+- **Main Module**: RedLabs Rocket Loadout (admin-only email settings management)
+- **Email Hook**: Automatic email override functionality
+- **Environment Endpoint**: Limited API access to non-sensitive env variables
+- **Tech Stack**: Vue 3, Directus Extensions SDK, SASS
+- **License**: PIRATE (custom license with maritime flair)
+
+## 🎯 Development Standards
+
+### Code Style & Structure
+- Use ES6+ modern JavaScript with module syntax
+- Vue 3 Composition API preferred for frontend components
+- Keep pirate theme consistent in comments and console logs (🚀 prefix)
+- Maintain existing naming conventions: `red_loadout`, `RedLabs`, etc.
+- Use descriptive variable names that reflect the nautical theme when appropriate
+
+### File Organization
+```
+src/
+├── loadout-module/     # Main Vue module
+├── email-hook/         # Email filtering hook
+└── environment-endpoint/ # API endpoint
+```
+
+### Directus Extension Patterns
+- Follow Directus extension bundle structure
+- Use proper service injection patterns (`services`, `getSchema`, `accountability`)
+- Implement proper error handling with swallowed errors for non-critical failures
+- Admin-only access checks using `preRegisterCheck`
+
+### Console Logging
+- Prefix all logs with `🚀 RedLabs::ComponentName::`
+- Use descriptive method names in log statements
+- Include error context with ASCII art borders for critical errors
+
+### Error Handling
+- Graceful degradation - don't break existing Directus functionality
+- Log errors but continue operation when possible
+- Use try-catch blocks for service calls
+
+## 🔧 Technical Guidelines
+
+### Vue Components
+- Use single-file components (.vue)
+- Implement proper prop validation
+- Use composition API for new components
+- Maintain accessibility standards
+
+### API Development
+- Endpoint pattern: `/red/[endpoint-name]`
+- Return JSON responses with proper HTTP status codes
+- Limit exposed environment variables to safe, non-sensitive data
+
+### Database Operations
+- Use `ItemsService` for database interactions
+- Implement singleton pattern for configuration storage
+- Handle missing collections gracefully
+
+### Build & Deployment
+- Use Directus Extensions SDK build system
+- Maintain compatibility with Directus v11.10.1+
+- Package for npm distribution under `@redlabs/rocket-loadout`
+
+## 📝 Documentation Style
+- Keep the pirate theme in README and documentation
+- Use emojis liberally but appropriately
+- Include practical examples and clear installation instructions
+- Maintain the "provided as-is" disclaimer tone
+
+## 🚫 What NOT to do
+- Never break the pirate commit message rule - it's non-negotiable!
+- Don't remove existing pirate-themed elements
+- Avoid exposing sensitive environment variables
+- Don't break backward compatibility with existing Directus functionality
+- Never remove the PIRATE license or maritime ASCII art
+
+## 🎨 UI/UX Guidelines
+- Maintain the rocket/space theme in the interface (🚀 icons)
+- Use orange accent color (#FFA439) for branding
+- Keep admin-only restrictions in place
+- Ensure responsive design for mobile admin access
+
+## 🧪 Testing Approach
+- Test email override functionality thoroughly
+- Verify admin access restrictions
+- Ensure graceful handling of missing configurations
+- Test extension initialization and database collection creation
+
+---
+**Remember, matey**: Every piece of code be a treasure, every commit be a voyage, and every bug fix be a battle won against the digital kraken! 🐙
+
+*May yer code always compile on the first try and yer deployments sail smooth as glass! 🌊*
+# RedLabs Rocket Loadout 🚀 - Cursor Rules
+
+## 🏴‍☠️ Core Pirate Code
+**ALL COMMIT MESSAGES MUST USE PIRATE LANGUAGE** - This be the most sacred rule of the seven seas! 
+- Examples: "Arrr! Added new treasure map feature", "Batten down the hatches - fixed memory leak", "Shiver me timbers! Refactored authentication flow"
+- Use nautical terms, pirate exclamations, and sea-worthy vocabulary
+- Keep it authentic but professional enough for a development log
+
+## 🚀 Project Context
+This be a Directus extension bundle for enhanced email management and system configuration:
+- **Main Module**: RedLabs Rocket Loadout (admin-only email settings management)
+- **Email Hook**: Automatic email override functionality
+- **Environment Endpoint**: Limited API access to non-sensitive env variables
+- **Tech Stack**: Vue 3, Directus Extensions SDK, SASS
+- **License**: PIRATE (custom license with maritime flair)
+
+## 🎯 Development Standards
+
+### Code Style & Structure
+- Use ES6+ modern JavaScript with module syntax
+- Vue 3 Composition API preferred for frontend components
+- Keep pirate theme consistent in comments and console logs (🚀 prefix)
+- Maintain existing naming conventions: `red_loadout`, `RedLabs`, etc.
+- Use descriptive variable names that reflect the nautical theme when appropriate
+
+### File Organization
+```
+src/
+├── loadout-module/     # Main Vue module
+├── email-hook/         # Email filtering hook
+└── environment-endpoint/ # API endpoint
+```
+
+### Directus Extension Patterns
+- Follow Directus extension bundle structure
+- Use proper service injection patterns (`services`, `getSchema`, `accountability`)
+- Implement proper error handling with swallowed errors for non-critical failures
+- Admin-only access checks using `preRegisterCheck`
+
+### Console Logging
+- Prefix all logs with `🚀 RedLabs::ComponentName::`
+- Use descriptive method names in log statements
+- Include error context with ASCII art borders for critical errors
+
+### Error Handling
+- Graceful degradation - don't break existing Directus functionality
+- Log errors but continue operation when possible
+- Use try-catch blocks for service calls
+
+## 🔧 Technical Guidelines
+
+### Vue Components
+- Use single-file components (.vue)
+- Implement proper prop validation
+- Use composition API for new components
+- Maintain accessibility standards
+
+### API Development
+- Endpoint pattern: `/red/[endpoint-name]`
+- Return JSON responses with proper HTTP status codes
+- Limit exposed environment variables to safe, non-sensitive data
+
+### Database Operations
+- Use `ItemsService` for database interactions
+- Implement singleton pattern for configuration storage
+- Handle missing collections gracefully
+
+### Build & Deployment
+- Use Directus Extensions SDK build system
+- Maintain compatibility with Directus v11.10.1+
+- Package for npm distribution under `@redlabs/rocket-loadout`
+
+## 📝 Documentation Style
+- Keep the pirate theme in README and documentation
+- Use emojis liberally but appropriately
+- Include practical examples and clear installation instructions
+- Maintain the "provided as-is" disclaimer tone
+
+## 🚫 What NOT to do
+- Never break the pirate commit message rule - it's non-negotiable!
+- Don't remove existing pirate-themed elements
+- Avoid exposing sensitive environment variables
+- Don't break backward compatibility with existing Directus functionality
+- Never remove the PIRATE license or maritime ASCII art
+
+## 🎨 UI/UX Guidelines
+- Maintain the rocket/space theme in the interface (🚀 icons)
+- Use orange accent color (#FFA439) for branding
+- Keep admin-only restrictions in place
+- Ensure responsive design for mobile admin access
+
+## 🧪 Testing Approach
+- Test email override functionality thoroughly
+- Verify admin access restrictions
+- Ensure graceful handling of missing configurations
+- Test extension initialization and database collection creation
+
+---
+**Remember, matey**: Every piece of code be a treasure, every commit be a voyage, and every bug fix be a battle won against the digital kraken! 🐙
+
+*May yer code always compile on the first try and yer deployments sail smooth as glass! 🌊*

@@ -3,10 +3,14 @@
 	"description": "Enhanced loadout (settings and features) for your Directus instance. EMAIL_FROM override + Email hook. More to come!??",
 	"icon": "rocket_launch",
 	"version": "1.0.11",
-	"author": {
-		"name": "RedLabs",
-		"website": "https://redlabs.rocks",
-		"github": "https://github.com/RedLabs-Rocks"
+	"author": "Rasputin of Tortuga <rasputin.of.tortuga@gmail.com>",
+	"homepage": "https://redlabs.rocks",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RedLabs-Rocks/blackfang-cay.git"
+	},
+	"bugs": {
+		"url": "https://github.com/RedLabs-Rocks/blackfang-cay/issues"
 	},
 	"keywords": [
 		"directus",
