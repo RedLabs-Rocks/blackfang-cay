@@ -43,7 +43,7 @@ Enhanced loadout (settings and features) for your Directus instance
 - Admin access to Directus instance
 
 ### Install Extension
-- Search for "Red Labs" or "Email" - it should pop up
+- Search for "RedLabs" or "Email" - it should pop up
 - Install, configure and you are good to go
 
 ## Usage
@@ -87,16 +87,18 @@ The extension automatically creates a `red_loadout` collection to store configur
 
 See: [Directus Extensions Overview](https://directus.io/docs/guides/extensions/overview)
 
-### Install via npm
+### Clone into your directus ./extensions directory
 ```bash
-npm install @red-labs/rocket-loadout
+# Using SSH
+git clone git@github.com:RedLabs-Rocks/blackfang-cay.git redlabs-rocket-loadout
+
+# Using HTTPS
+git clone https://github.com/RedLabs-Rocks/blackfang-cay.git redlabs-rocket-loadout
 ```
 
-### Manual Installation
-1. Download the extension package
-2. Extract to your Directus extensions directory
+### Install & Build
 ```bash
-# Install & Build
+cd redlabs-rocket-loadout
 npm install
 npm run build
 ```
@@ -108,4 +110,5 @@ npm run build
 **More features??** Massive time constraints, but who knows! 😎  
 <br/>
 
-Arrr, May the Kraken ever look upon ye with favor! 🐙  
+🏴 Avast! We be done! 🏴   
+Arrr, be seein’ ye, an' may the Kraken ever look upon ye with favor! 🐙  
