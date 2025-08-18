@@ -3,7 +3,7 @@
 Enhanced loadout (settings and features) for your Directus instance  
 
 #### Quick Notes
-1. Provided '_as is_'. See πRATE_LICENSE_☠️.md_
+1. Provided '_as is_'. See πrate _LICENSE.md_
 2. Enhancements? Maybe. Bug fixes? Maybe. Responding to issues? Maybe...
 3. Happy huntin'
 
