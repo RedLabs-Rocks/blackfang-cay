@@ -58,9 +58,8 @@
 	"scripts": {
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
-		"link": "directus-extension link",
-		"validate": "directus-extension validate",
-		"add": "directus-extension add"
+    "publish": "npm publish --access public",
+    "dry": "npm pack --dry-run"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "16.0.0",
