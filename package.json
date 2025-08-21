@@ -2,7 +2,7 @@
 	"name": "@redlabs/rocket-loadout",
 	"description": "Enhanced loadout (settings and features) for your Directus instance. EMAIL_FROM override + Email hook. More to come!??",
 	"icon": "rocket_launch",
-	"version": "1.0.13",
+	"version": "1.1.1",
 	"author": "Rasputin of Tortuga <rasputin.of.tortuga@gmail.com>",
 	"homepage": "https://redlabs.rocks",
 	"repository": {
@@ -26,6 +26,10 @@
 		"type": "bundle",
 		"partial": false,
 		"host": "^11.10.1",
+    "sandbox": {
+      "enabled": true,
+      "requestedScopes": {}
+    },
 		"path": {
 			"app": "dist/app.js",
 			"api": "dist/api.js"
@@ -35,13 +39,16 @@
 			"name": "loadout-module",
 			"description": "RedLabs Rocket Loadout 🚀🚀🚀 (enhanced settings) for directus",
 			"source": "src/loadout-module/index.js"
-		},
-		{
+		},{
 			"type": "endpoint",
 			"name": "environment-endpoint",
 			"description": "Returns environment variables for the directus instance (limited!)",
-			"source": "src/environment-endpoint/index.js"
-		},{
+			"source": "src/environment-endpoint/index.js",
+      "sandbox": {
+        "enabled": true,
+        "requestedScopes": {}
+      }
+    },{
 			"type": "hook",
 			"name": "email-hook",
 			"description": "Email hook that uses custom EMAIL_FROM name and address (if enabled)",

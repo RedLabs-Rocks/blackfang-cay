@@ -158,7 +158,7 @@ export default {
 		async function loadEnvironmentVars() {
 			try {
 				const response = await api.get('/red/env');
-				console.log('🚀 RedLabs::loadEnvironmentVars', response);
+				console.log('🚀 RedLabs::loadEnvironmentVars', response.data);
 				sysFromAddress.value = response.data.EMAIL_FROM || 'not-configured';
 				console.log('🚀 RedLabs::sysFromAddress', sysFromAddress.value);
 			} catch (error) {
@@ -273,6 +273,10 @@ export default {
 
 				await saveSettings(payload);
 				notify.add({ type: 'success', title: '🚀 Settings Saved' });
+
+        initialIsOverride.value = isOverrideEmailChecked.value;
+        initialFromName.value = fromName.value;
+        initialFromAddress.value = fromAddress.value;
 			} catch (error) {
 				console.log('🚀 RedLabs::onClickSaveSettings - error: ', error);
 				notify.add({ type: 'error', title: '🚀 Settings Save Failed' });
